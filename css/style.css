@@ -1,0 +1,79 @@
+/* Google Fonts: títulos (Poppins) y cuerpo (Nunito) */
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;600&family=Poppins:wght@600;700&display=swap");
+
+/* ---------- Variables de identidad visual ---------- */
+:root {
+  --color-primario: #2b6cb0;
+  --color-secundario: #2c5282;
+  --color-acento: #f6ad55;
+  --color-fondo: #f7fafc;
+  --color-texto: #2d3748;
+  --fuente-titulos: "Poppins", "Segoe UI", sans-serif;
+  --fuente-cuerpo: "Nunito", "Segoe UI", sans-serif;
+
+  /* ---------- Sobrescritura de variables de Bootstrap ---------- */
+  --bs-primary: var(--color-primario);
+  --bs-primary-rgb: 43, 108, 176;
+  --bs-body-bg: var(--color-fondo);
+  --bs-body-color: var(--color-texto);
+  --bs-body-font-family: var(--fuente-cuerpo);
+  --bs-link-color: var(--color-primario);
+  --bs-link-hover-color: var(--color-secundario);
+}
+
+/* ---------- Tipografía de títulos ---------- */
+h1, h2, h3, h4, h5, h6, .navbar-brand {
+  font-family: var(--fuente-titulos);
+}
+
+/* ---------- Botón primario personalizado ---------- */
+.btn-primary {
+  --bs-btn-bg: var(--color-primario);
+  --bs-btn-border-color: var(--color-primario);
+  --bs-btn-hover-bg: var(--color-secundario);
+  --bs-btn-hover-border-color: var(--color-secundario);
+  --bs-btn-active-bg: var(--color-secundario);
+  --bs-btn-active-border-color: var(--color-secundario);
+  --bs-btn-focus-shadow-rgb: 43, 108, 176;
+}
+
+/* ---------- Navbar: enlace activo ---------- */
+.navbar .nav-link.active {
+  color: var(--color-acento);
+  font-weight: 600;
+}
+
+/* ---------- Hero (Flexbox para centrar contenido) ---------- */
+.hero {
+  min-height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 3rem 1rem;
+  color: #fff;
+  background: linear-gradient(135deg, var(--color-primario), var(--color-secundario));
+}
+
+/* ---------- Cards: elevación suave al pasar el mouse ---------- */
+.card {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 0.75rem 1.5rem rgba(0, 0, 0, 0.15);
+}
+
+/* ---------- Footer ---------- */
+footer {
+  background-color: var(--color-secundario);
+  color: #fff;
+}
+footer a {
+  color: var(--color-acento);
+  text-decoration: none;
+}
+footer a:hover {
+  text-decoration: underline;
+}
