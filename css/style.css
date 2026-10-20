@@ -87,3 +87,16 @@ footer a:hover {
 .aside-sticky {
   top: 1rem;
 }
+/* ---------- Galería: imágenes uniformes con zoom al hover (galeria) ---------- */
+.galeria-item {
+  overflow: hidden;
+}
+.galeria-item img {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+.galeria-item:hover img {
+  transform: scale(1.05);
+}
