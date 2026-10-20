@@ -83,3 +83,7 @@ footer a:hover {
     linear-gradient(135deg, rgba(43, 108, 176, 0.85), rgba(44, 82, 130, 0.85)),
     url("../img/hero.jpg") center / cover no-repeat;
 }
+/* ---------- Aside sticky: separación respecto a la navbar (informacion) ---------- */
+.aside-sticky {
+  top: 1rem;
+}
