@@ -4,14 +4,14 @@
   <!-- Metadatos básicos -->
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Título de la página | Portal Educativo</title>
-  <meta name="description" content="Portal Educativo: recursos, información y actividades para aprender de forma sencilla y cercana.">
-  <meta name="keywords" content="educación, aprendizaje, recursos educativos, portal web, estudiantes">
+  <title>Inicio | Portal Educativo</title>
+  <meta name="description" content="Portal Educativo: cursos en línea, docentes cercanos y recursos para aprender a tu ritmo. Conoce nuestra oferta e inscríbete.">
+  <meta name="keywords" content="educación, cursos en línea, aprendizaje, inscripciones, docentes, portal educativo">
   <meta name="author" content="Santiago">
 
   <!-- Open Graph -->
-  <meta property="og:title" content="Portal Educativo">
-  <meta property="og:description" content="Recursos, información y actividades para aprender de forma sencilla y cercana.">
+  <meta property="og:title" content="Portal Educativo | Inicio">
+  <meta property="og:description" content="Cursos en línea, docentes cercanos y recursos para aprender a tu ritmo.">
 
   <!-- Bootstrap 5 CSS y Bootstrap Icons (CDN) -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -42,7 +42,6 @@
         <!-- Enlaces -->
         <div class="collapse navbar-collapse" id="menuPrincipal">
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-            <!-- En cada página: mover class="active" y aria-current="page" al enlace correspondiente -->
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
             </li>
@@ -66,7 +65,171 @@
 
   <!-- ===== Contenido principal ===== -->
   <main class="flex-grow-1">
-    <!-- El contenido de cada página va aquí -->
+
+    <!-- 1. Hero -->
+    <section class="hero" aria-labelledby="titulo-hero">
+      <div class="container">
+        <h1 id="titulo-hero" class="display-4 fw-bold">Portal Educativo</h1>
+        <p class="lead mb-4">Aprende a tu ritmo, con docentes cercanos y recursos pensados para ti.</p>
+        <div class="d-flex flex-column flex-sm-row justify-content-center gap-3">
+          <a href="informacion.html" class="btn btn-light btn-lg">
+            <i class="bi bi-info-circle me-2" aria-hidden="true"></i>Ver información
+          </a>
+          <a href="contacto.html" class="btn btn-outline-light btn-lg">
+            <i class="bi bi-envelope me-2" aria-hidden="true"></i>Contáctanos
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2. Resumen del portal -->
+    <section class="py-5" aria-labelledby="titulo-resumen">
+      <div class="container">
+        <div class="row g-4 align-items-center">
+          <article class="col-12 col-lg-6">
+            <h2 id="titulo-resumen" class="mb-3">¿Qué es el Portal Educativo?</h2>
+            <p class="mb-0">Es un espacio digital donde reunimos cursos, materiales y actividades para que aprender sea sencillo y entretenido. Sin importar desde dónde nos visites, aquí encontrarás contenidos claros, acompañamiento de docentes y herramientas para avanzar paso a paso.</p>
+          </article>
+          <div class="col-12 col-lg-6">
+            <div class="row g-3 text-center">
+              <div class="col-12 col-sm-4">
+                <div class="card h-100 border-0 shadow-sm">
+                  <div class="card-body">
+                    <i class="bi bi-journal-bookmark-fill fs-1 text-primary" aria-hidden="true"></i>
+                    <p class="display-6 fw-bold mb-0">+20</p>
+                    <p class="mb-0">cursos</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-4">
+                <div class="card h-100 border-0 shadow-sm">
+                  <div class="card-body">
+                    <i class="bi bi-people-fill fs-1 text-primary" aria-hidden="true"></i>
+                    <p class="display-6 fw-bold mb-0">10</p>
+                    <p class="mb-0">docentes</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-4">
+                <div class="card h-100 border-0 shadow-sm">
+                  <div class="card-body">
+                    <i class="bi bi-laptop fs-1 text-primary" aria-hidden="true"></i>
+                    <p class="display-6 fw-bold mb-0">100%</p>
+                    <p class="mb-0">en línea</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. Accesos rápidos -->
+    <section class="py-5 bg-white" aria-labelledby="titulo-accesos">
+      <div class="container">
+        <h2 id="titulo-accesos" class="text-center mb-4">Accesos rápidos</h2>
+        <div class="row g-3">
+          <div class="col-12 col-sm-6 col-lg-3">
+            <a href="informacion.html" class="btn btn-outline-primary w-100 py-3 d-flex flex-column align-items-center gap-2">
+              <i class="bi bi-info-circle-fill fs-2" aria-hidden="true"></i>
+              <span>Información</span>
+            </a>
+          </div>
+          <div class="col-12 col-sm-6 col-lg-3">
+            <a href="galeria.html" class="btn btn-outline-primary w-100 py-3 d-flex flex-column align-items-center gap-2">
+              <i class="bi bi-images fs-2" aria-hidden="true"></i>
+              <span>Galería</span>
+            </a>
+          </div>
+          <div class="col-12 col-sm-6 col-lg-3">
+            <a href="tabla.html" class="btn btn-outline-primary w-100 py-3 d-flex flex-column align-items-center gap-2">
+              <i class="bi bi-table fs-2" aria-hidden="true"></i>
+              <span>Tabla</span>
+            </a>
+          </div>
+          <div class="col-12 col-sm-6 col-lg-3">
+            <a href="contacto.html" class="btn btn-outline-primary w-100 py-3 d-flex flex-column align-items-center gap-2">
+              <i class="bi bi-chat-dots-fill fs-2" aria-hidden="true"></i>
+              <span>Contacto</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. Cursos destacados -->
+    <section class="py-5" aria-labelledby="titulo-cursos">
+      <div class="container">
+        <h2 id="titulo-cursos" class="text-center mb-4">Cursos destacados</h2>
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+
+          <div class="col">
+            <article class="card h-100">
+              <img src="img/curso1.jpg" class="card-img-top" loading="lazy"
+                   alt="Estudiante practicando ejercicios de matemáticas en un cuaderno">
+              <div class="card-body d-flex flex-column">
+                <h3 class="h5 card-title">Matemáticas sin miedo</h3>
+                <p class="card-text">Pierde el susto a los números con ejemplos de la vida diaria y práctica guiada.</p>
+                <a href="informacion.html" class="btn btn-primary mt-auto">Ver más</a>
+              </div>
+            </article>
+          </div>
+
+          <div class="col">
+            <article class="card h-100">
+              <img src="img/curso2.jpg" class="card-img-top" loading="lazy"
+                   alt="Persona escribiendo código en un computador portátil">
+              <div class="card-body d-flex flex-column">
+                <h3 class="h5 card-title">Primeros pasos en programación</h3>
+                <p class="card-text">Aprende la lógica básica para crear tus primeros programas desde cero.</p>
+                <a href="informacion.html" class="btn btn-primary mt-auto">Ver más</a>
+              </div>
+            </article>
+          </div>
+
+          <div class="col">
+            <article class="card h-100">
+              <img src="img/curso3.jpg" class="card-img-top" loading="lazy"
+                   alt="Libros abiertos y una libreta sobre una mesa de estudio">
+              <div class="card-body d-flex flex-column">
+                <h3 class="h5 card-title">Lectura y escritura creativa</h3>
+                <p class="card-text">Mejora tu comprensión lectora y escribe textos claros, con tu propia voz.</p>
+                <a href="informacion.html" class="btn btn-primary mt-auto">Ver más</a>
+              </div>
+            </article>
+          </div>
+
+          <div class="col">
+            <article class="card h-100">
+              <img src="img/curso4.jpg" class="card-img-top" loading="lazy"
+                   alt="Plantas creciendo en un laboratorio escolar de ciencias">
+              <div class="card-body d-flex flex-column">
+                <h3 class="h5 card-title">Ciencias en acción</h3>
+                <p class="card-text">Experimentos sencillos para entender cómo funciona el mundo que nos rodea.</p>
+                <a href="informacion.html" class="btn btn-primary mt-auto">Ver más</a>
+              </div>
+            </article>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. Aviso lateral: inscripciones -->
+    <aside class="container pb-5" aria-label="Aviso de inscripciones">
+      <div class="alert alert-warning d-flex flex-column flex-md-row align-items-md-center justify-content-between gap-3 mb-0" role="alert">
+        <div class="d-flex align-items-center gap-3">
+          <i class="bi bi-megaphone-fill fs-3" aria-hidden="true"></i>
+          <div>
+            <h2 class="h5 alert-heading mb-1">¡Inscripciones abiertas!</h2>
+            <p class="mb-0">Reserva tu cupo en los cursos del próximo periodo y empieza a aprender con nosotros.</p>
+          </div>
+        </div>
+        <a href="contacto.html" class="btn btn-primary">Inscribirme</a>
+      </div>
+    </aside>
+
   </main>
 
   <!-- ===== Pie de página ===== -->

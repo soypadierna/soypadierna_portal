@@ -77,3 +77,9 @@ footer a {
 footer a:hover {
   text-decoration: underline;
 }
+/* ---------- Hero con imagen de fondo (index) ---------- */
+.hero {
+  background:
+    linear-gradient(135deg, rgba(43, 108, 176, 0.85), rgba(44, 82, 130, 0.85)),
+    url("../img/hero.jpg") center / cover no-repeat;
+}
