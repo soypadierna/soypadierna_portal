@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <!-- Metadatos básicos -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Oferta académica | Portal Educativo</title>
+  <meta name="description" content="Consulta la oferta académica del Portal Educativo: cursos, docentes, duración, modalidad, cupos y valores del periodo 2026-2.">
+  <meta name="keywords" content="oferta académica, cursos, tabla, modalidad, cupos, valores, periodo 2026-2">
+  <meta name="author" content="Santiago">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Portal Educativo | Oferta académica">
+  <meta property="og:description" content="Cursos, docentes, modalidad, cupos y valores del periodo 2026-2 en el Portal Educativo.">
+
+  <!-- Bootstrap 5 CSS y Bootstrap Icons (CDN) -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+
+  <!-- Estilos propios (después de Bootstrap) -->
+  <link href="css/style.css" rel="stylesheet">
+</head>
+<body class="d-flex flex-column min-vh-100">
+
+  <!-- ===== Encabezado con navbar ===== -->
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary" aria-label="Navegación principal">
+      <div class="container">
+        <!-- Logo: ícono + texto -->
+        <a class="navbar-brand d-flex align-items-center gap-2" href="index.html" aria-label="Portal Educativo, ir al inicio">
+          <i class="bi bi-mortarboard-fill" aria-hidden="true"></i>
+          <span>Portal Educativo</span>
+        </a>
+
+        <!-- Botón hamburguesa (móvil) -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#menuPrincipal" aria-controls="menuPrincipal"
+                aria-expanded="false" aria-label="Abrir menú de navegación">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Enlaces -->
+        <div class="collapse navbar-collapse" id="menuPrincipal">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="informacion.html">Información</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="galeria.html">Galería</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="tabla.html">Tabla</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contacto.html">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- ===== Contenido principal ===== -->
+  <main class="flex-grow-1">
+
+    <!-- 1. Encabezado de la página -->
+    <header class="bg-white border-bottom py-4">
+      <div class="container">
+        <h1 class="mb-1">Oferta académica</h1>
+        <p class="lead mb-0">Revisa de un vistazo los cursos del periodo, sus docentes, modalidades, cupos y valores.</p>
+      </div>
+    </header>
+
+    <div class="container py-5">
+
+      <!-- 2. Cursos disponibles -->
+      <section class="mb-5" aria-labelledby="titulo-cursos" aria-label="Tabla de cursos disponibles">
+        <h2 id="titulo-cursos" class="mb-3">Cursos disponibles</h2>
+
+        <div class="table-responsive">
+          <table class="table table-striped table-hover align-middle tabla-cursos">
+            <caption>Oferta de cursos del periodo 2026-2</caption>
+            <thead class="table-dark">
+              <tr>
+                <th scope="col">Curso</th>
+                <th scope="col">Docente</th>
+                <th scope="col">Duración</th>
+                <th scope="col">Modalidad</th>
+                <th scope="col" class="text-end">Cupos</th>
+                <th scope="col" class="text-end">Valor (COP)</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">Programación básica</th>
+                <td>Laura Gómez</td>
+                <td>8 semanas</td>
+                <td><span class="badge text-bg-primary">Virtual</span></td>
+                <td class="text-end">25</td>
+                <td class="text-end">$280.000</td>
+              </tr>
+              <tr>
+                <th scope="row">Diseño web con Bootstrap</th>
+                <td>Laura Gómez</td>
+                <td>6 semanas</td>
+                <td><span class="badge text-bg-warning">Híbrido</span></td>
+                <td class="text-end">20</td>
+                <td class="text-end">$240.000</td>
+              </tr>
+              <tr>
+                <th scope="row">Inglés conversacional</th>
+                <td>Andrés Ramírez</td>
+                <td>12 semanas</td>
+                <td><span class="badge text-bg-primary">Virtual</span></td>
+                <td class="text-end">30</td>
+                <td class="text-end">$320.000</td>
+              </tr>
+              <tr>
+                <th scope="row">Español para extranjeros</th>
+                <td>Andrés Ramírez</td>
+                <td>10 semanas</td>
+                <td><span class="badge text-bg-success">Presencial</span></td>
+                <td class="text-end">15</td>
+                <td class="text-end">$300.000</td>
+              </tr>
+              <tr>
+                <th scope="row">Comunicación efectiva</th>
+                <td>Marcela Ortiz</td>
+                <td>6 semanas</td>
+                <td><span class="badge text-bg-success">Presencial</span></td>
+                <td class="text-end">20</td>
+                <td class="text-end">$180.000</td>
+              </tr>
+              <tr>
+                <th scope="row">Trabajo en equipo</th>
+                <td>Marcela Ortiz</td>
+                <td>4 semanas</td>
+                <td><span class="badge text-bg-warning">Híbrido</span></td>
+                <td class="text-end">18</td>
+                <td class="text-end">$150.000</td>
+              </tr>
+              <tr>
+                <th scope="row">Gestión del tiempo</th>
+                <td>Camilo Duarte</td>
+                <td>4 semanas</td>
+                <td><span class="badge text-bg-primary">Virtual</span></td>
+                <td class="text-end">22</td>
+                <td class="text-end">$120.000</td>
+              </tr>
+            </tbody>
+            <tfoot class="table-group-divider fw-bold">
+              <tr>
+                <!-- Total de cursos: 7 filas en tbody -->
+                <th scope="row" colspan="4">Total: 7 cursos</th>
+                <!-- Suma de cupos: 25+20+30+15+20+18+22 = 150 -->
+                <td class="text-end">150</td>
+                <!-- Promedio: 1.590.000 / 7 = 227.142,86 (redondeado) -->
+                <td class="text-end">Promedio: $227.143</td>
+              </tr>
+            </tfoot>
+          </table>
+        </div>
+      </section>
+
+      <!-- 3. Cómo leer la tabla -->
+      <section class="mb-5" aria-labelledby="titulo-notas" aria-label="Notas para leer la tabla">
+        <h2 id="titulo-notas" class="mb-3">Cómo leer la tabla</h2>
+        <ul class="list-group">
+          <li class="list-group-item d-flex align-items-start gap-3">
+            <i class="bi bi-laptop text-primary fs-4" aria-hidden="true"></i>
+            <div>
+              <h3 class="h6 mb-1">Modalidad</h3>
+              <p class="mb-0"><strong>Presencial</strong> significa asistir al aula, <strong>Virtual</strong> es 100% en línea y <strong>Híbrido</strong> combina sesiones en el aula con trabajo en línea.</p>
+            </div>
+          </li>
+          <li class="list-group-item d-flex align-items-start gap-3">
+            <i class="bi bi-people-fill text-primary fs-4" aria-hidden="true"></i>
+            <div>
+              <h3 class="h6 mb-1">Cupos limitados</h3>
+              <p class="mb-0">Cada curso tiene un número máximo de estudiantes para garantizar un buen acompañamiento. Los cupos se asignan por orden de inscripción.</p>
+            </div>
+          </li>
+          <li class="list-group-item d-flex align-items-start gap-3">
+            <i class="bi bi-pencil-square text-primary fs-4" aria-hidden="true"></i>
+            <div>
+              <h3 class="h6 mb-1">Cómo inscribirte</h3>
+              <p class="mb-0">Escribe al equipo desde la <a href="contacto.html">página de contacto</a> indicando el curso que te interesa y te explicamos los pasos.</p>
+            </div>
+          </li>
+        </ul>
+      </section>
+
+      <!-- 4. Aside: calendario -->
+      <aside aria-label="Descarga del calendario académico">
+        <div class="card text-center">
+          <div class="card-body py-4">
+            <i class="bi bi-calendar-check fs-1 text-primary" aria-hidden="true"></i>
+            <h2 class="h4 card-title mt-2">Descarga el calendario</h2>
+            <p class="card-text">¿Quieres tener las fechas del periodo a la mano? Solicítanos el calendario académico.</p>
+            <a href="contacto.html" class="btn btn-primary">Solicitar calendario</a>
+          </div>
+        </div>
+      </aside>
+
+    </div>
+
+  </main>
+
+  <!-- ===== Pie de página ===== -->
+  <footer class="py-4 mt-auto">
+    <div class="container">
+      <div class="row g-4">
+        <!-- Columna: marca -->
+        <section class="col-12 col-md-4">
+          <h2 class="h5 d-flex align-items-center gap-2">
+            <i class="bi bi-mortarboard-fill" aria-hidden="true"></i>
+            Portal Educativo
+          </h2>
+          <p class="mb-0">Aprender es más fácil cuando se comparte. ¡Explora, practica y crece con nosotros!</p>
+        </section>
+
+        <!-- Columna: enlaces -->
+        <nav class="col-6 col-md-4" aria-label="Enlaces del pie de página">
+          <h2 class="h5">Enlaces</h2>
+          <ul class="list-unstyled mb-0">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="informacion.html">Información</a></li>
+            <li><a href="galeria.html">Galería</a></li>
+            <li><a href="tabla.html">Tabla</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+          </ul>
+        </nav>
+
+        <!-- Columna: contacto -->
+        <section class="col-6 col-md-4">
+          <h2 class="h5">Contacto</h2>
+          <ul class="list-unstyled mb-0">
+            <li><i class="bi bi-envelope me-2" aria-hidden="true"></i>contacto@portaleducativo.com</li>
+            <li><i class="bi bi-github me-2" aria-hidden="true"></i><a href="https://github.com/soypadierna" target="_blank" rel="noopener">soypadierna</a></li>
+          </ul>
+        </section>
+      </div>
+
+      <hr class="border-light">
+      <p class="text-center mb-0 small">&copy; 2026 Portal Educativo. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap 5 JS bundle (al final del body) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

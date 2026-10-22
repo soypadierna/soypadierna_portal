@@ -100,3 +100,12 @@ footer a:hover {
 .galeria-item:hover img {
   transform: scale(1.05);
 }
+/* ---------- Tabla: cifras alineadas y caption legible (tabla) ---------- */
+.tabla-cursos {
+  font-variant-numeric: tabular-nums;
+}
+.tabla-cursos caption {
+  caption-side: top;
+  font-weight: 600;
+  color: var(--color-secundario);
+}
