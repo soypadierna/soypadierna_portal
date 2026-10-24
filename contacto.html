@@ -1,235 +1,328 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-  <!-- Metadatos básicos -->
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Contacto | Portal Educativo</title>
-  <meta name="description" content="Escríbenos desde el formulario de contacto del Portal Educativo: inscripciones, horarios, soporte técnico y certificados.">
-  <meta name="keywords" content="contacto, formulario, inscripción, soporte, certificados, horarios">
-  <meta name="author" content="Santiago">
+    <head>
+        <!-- Metadatos básicos -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Contacto | Portal Educativo</title>
+        <meta name="description"
+            content="Escríbenos desde el formulario de contacto del Portal Educativo: inscripciones, horarios, soporte técnico y certificados.">
+        <meta name="keywords"
+            content="contacto, formulario, inscripción, soporte, certificados, horarios">
+        <meta name="author" content="Santiago">
 
-  <!-- Open Graph -->
-  <meta property="og:title" content="Portal Educativo | Contacto">
-  <meta property="og:description" content="Contáctanos para resolver tus dudas sobre inscripciones, horarios, soporte y certificados.">
+        <!-- Favicon -->
+        <link rel="icon" type="image/svg+xml" href="img/favicon.svg">
 
-  <!-- Bootstrap 5 CSS y Bootstrap Icons (CDN) -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+        <!-- Open Graph -->
+        <meta property="og:title" content="Portal Educativo | Contacto">
+        <meta property="og:description"
+            content="Contáctanos para resolver tus dudas sobre inscripciones, horarios, soporte y certificados.">
 
-  <!-- Estilos propios (después de Bootstrap) -->
-  <link href="css/style.css" rel="stylesheet">
-</head>
-<body class="d-flex flex-column min-vh-100">
+        <!-- Bootstrap 5 CSS y Bootstrap Icons (CDN) -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+            rel="stylesheet">
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+            rel="stylesheet">
 
-  <!-- ===== Encabezado con navbar ===== -->
-  <header>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary" aria-label="Navegación principal">
-      <div class="container">
-        <!-- Logo: ícono + texto -->
-        <a class="navbar-brand d-flex align-items-center gap-2" href="index.html" aria-label="Portal Educativo, ir al inicio">
-          <i class="bi bi-mortarboard-fill" aria-hidden="true"></i>
-          <span>Portal Educativo</span>
-        </a>
+        <!-- Estilos propios (después de Bootstrap) -->
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body class="d-flex flex-column min-vh-100">
 
-        <!-- Botón hamburguesa (móvil) -->
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#menuPrincipal" aria-controls="menuPrincipal"
-                aria-expanded="false" aria-label="Abrir menú de navegación">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+        <!-- ===== Encabezado con navbar ===== -->
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-primary"
+                aria-label="Navegación principal">
+                <div class="container">
+                    <!-- Logo: ícono + texto -->
+                    <a class="navbar-brand d-flex align-items-center gap-2"
+                        href="index.html"
+                        aria-label="Portal Educativo, ir al inicio">
+                        <i class="bi bi-mortarboard-fill"
+                            aria-hidden="true"></i>
+                        <span>Portal Educativo</span>
+                    </a>
 
-        <!-- Enlaces -->
-        <div class="collapse navbar-collapse" id="menuPrincipal">
-          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link" href="index.html">Inicio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="informacion.html">Información</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="galeria.html">Galería</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="tabla.html">Tabla</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="contacto.html">Contacto</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-  </header>
+                    <!-- Botón hamburguesa (móvil) -->
+                    <button class="navbar-toggler" type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#menuPrincipal"
+                        aria-controls="menuPrincipal"
+                        aria-expanded="false"
+                        aria-label="Abrir menú de navegación">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
 
-  <!-- ===== Contenido principal ===== -->
-  <main class="flex-grow-1">
+                    <!-- Enlaces -->
+                    <div class="collapse navbar-collapse" id="menuPrincipal">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link"
+                                    href="informacion.html">Información</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link"
+                                    href="galeria.html">Galería</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="tabla.html">Tabla</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page"
+                                    href="contacto.html">Contacto</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
 
-    <!-- 1. Encabezado de la página -->
-    <header class="bg-white border-bottom py-4">
-      <div class="container">
-        <h1 class="mb-1">Contacto</h1>
-        <p class="lead mb-0">Cuéntanos qué necesitas y te responderemos lo antes posible.</p>
-      </div>
-    </header>
+        <!-- ===== Contenido principal ===== -->
+        <main class="flex-grow-1">
 
-    <div class="container py-5">
-      <div class="row g-4">
+            <!-- 1. Encabezado de la página -->
+            <header class="bg-white border-bottom py-4">
+                <div class="container">
+                    <h1 class="mb-1">Contacto</h1>
+                    <p class="lead mb-0">Cuéntanos qué necesitas y te
+                        responderemos lo antes posible.</p>
+                </div>
+            </header>
 
-        <!-- ========== FORMULARIO ========== -->
-        <div class="col-12 col-lg-7">
-          <section aria-labelledby="titulo-form" aria-label="Formulario de contacto">
-            <h2 id="titulo-form" class="mb-3">Envíanos un mensaje</h2>
+            <div class="container py-5">
+                <div class="row g-4">
 
-            <!-- Resultado del envío (alert de Bootstrap insertado por script.js) -->
-            <div id="resultadoForm" role="alert" aria-live="polite"></div>
+                    <!-- ========== FORMULARIO ========== -->
+                    <div class="col-12 col-lg-7">
+                        <section aria-labelledby="titulo-form"
+                            aria-label="Formulario de contacto">
+                            <h2 id="titulo-form" class="mb-3">Envíanos un
+                                mensaje</h2>
 
-            <form id="formContacto" novalidate>
+                            <!-- Resultado del envío (alert de Bootstrap insertado por script.js) -->
+                            <div id="resultadoForm" role="alert"
+                                aria-live="polite"></div>
 
-              <!-- Nombre -->
-              <div class="mb-3">
-                <label for="nombre" class="form-label">Nombre completo</label>
-                <input type="text" class="form-control" id="nombre" name="nombre"
-                       placeholder="Tu nombre y apellido" autocomplete="name"
-                       required minlength="3" aria-describedby="errorNombre">
-                <div class="invalid-feedback" id="errorNombre"></div>
-              </div>
+                            <form id="formContacto" novalidate>
 
-              <!-- Correo -->
-              <div class="mb-3">
-                <label for="email" class="form-label">Correo electrónico</label>
-                <input type="email" class="form-control" id="email" name="email"
-                       placeholder="nombre@dominio.com" autocomplete="email"
-                       required aria-describedby="errorEmail">
-                <div class="invalid-feedback" id="errorEmail"></div>
-              </div>
+                                <!-- Nombre -->
+                                <div class="mb-3">
+                                    <label for="nombre"
+                                        class="form-label">Nombre
+                                        completo</label>
+                                    <input type="text" class="form-control"
+                                        id="nombre" name="nombre"
+                                        placeholder="Tu nombre y apellido"
+                                        autocomplete="name"
+                                        required minlength="3"
+                                        aria-describedby="errorNombre">
+                                    <div class="invalid-feedback"
+                                        id="errorNombre"></div>
+                                </div>
 
-              <!-- Motivo -->
-              <div class="mb-3">
-                <label for="motivo" class="form-label">Motivo de contacto</label>
-                <select class="form-select" id="motivo" name="motivo"
-                        required aria-describedby="errorMotivo">
-                  <option value="" selected disabled>Selecciona una opción</option>
-                  <option value="inscripcion">Inscripción a cursos</option>
-                  <option value="horarios">Información de horarios</option>
-                  <option value="soporte">Soporte técnico</option>
-                  <option value="certificados">Certificados</option>
-                  <option value="otro">Otro</option>
-                </select>
-                <div class="invalid-feedback" id="errorMotivo"></div>
-              </div>
+                                <!-- Correo -->
+                                <div class="mb-3">
+                                    <label for="email" class="form-label">Correo
+                                        electrónico</label>
+                                    <input type="email" class="form-control"
+                                        id="email" name="email"
+                                        placeholder="nombre@dominio.com"
+                                        autocomplete="email"
+                                        required aria-describedby="errorEmail">
+                                    <div class="invalid-feedback"
+                                        id="errorEmail"></div>
+                                </div>
 
-              <!-- Mensaje -->
-              <div class="mb-3">
-                <label for="mensaje" class="form-label">Mensaje</label>
-                <textarea class="form-control" id="mensaje" name="mensaje" rows="5"
-                          placeholder="Escribe aquí tu consulta"
-                          required minlength="20"
-                          aria-describedby="contadorMensaje errorMensaje"></textarea>
-                <div class="form-text" id="contadorMensaje">0/20 caracteres mínimo</div>
-                <div class="invalid-feedback" id="errorMensaje"></div>
-              </div>
+                                <!-- Motivo -->
+                                <div class="mb-3">
+                                    <label for="motivo"
+                                        class="form-label">Motivo de
+                                        contacto</label>
+                                    <select class="form-select" id="motivo"
+                                        name="motivo"
+                                        required aria-describedby="errorMotivo">
+                                        <option value selected
+                                            disabled>Selecciona una
+                                            opción</option>
+                                        <option value="inscripcion">Inscripción
+                                            a cursos</option>
+                                        <option value="horarios">Información de
+                                            horarios</option>
+                                        <option value="soporte">Soporte
+                                            técnico</option>
+                                        <option
+                                            value="certificados">Certificados</option>
+                                        <option value="otro">Otro</option>
+                                    </select>
+                                    <div class="invalid-feedback"
+                                        id="errorMotivo"></div>
+                                </div>
 
-              <!-- Términos -->
-              <div class="form-check mb-4">
-                <input class="form-check-input" type="checkbox" id="terminos" name="terminos"
-                       required aria-describedby="errorTerminos">
-                <label class="form-check-label" for="terminos">
-                  Acepto la política de tratamiento de datos
-                </label>
-                <div class="invalid-feedback" id="errorTerminos"></div>
-              </div>
+                                <!-- Mensaje -->
+                                <div class="mb-3">
+                                    <label for="mensaje"
+                                        class="form-label">Mensaje</label>
+                                    <textarea class="form-control" id="mensaje"
+                                        name="mensaje" rows="5"
+                                        placeholder="Escribe aquí tu consulta"
+                                        required minlength="20"
+                                        aria-describedby="contadorMensaje errorMensaje"></textarea>
+                                    <div class="form-text"
+                                        id="contadorMensaje">0/20 caracteres
+                                        mínimo</div>
+                                    <div class="invalid-feedback"
+                                        id="errorMensaje"></div>
+                                </div>
 
-              <!-- Botones -->
-              <div class="d-flex flex-column flex-sm-row gap-2">
-                <button type="submit" class="btn btn-primary">
-                  <i class="bi bi-send me-2" aria-hidden="true"></i>Enviar mensaje
-                </button>
-                <button type="reset" class="btn btn-outline-secondary">Limpiar</button>
-              </div>
+                                <!-- Términos -->
+                                <div class="form-check mb-4">
+                                    <input class="form-check-input"
+                                        type="checkbox" id="terminos"
+                                        name="terminos"
+                                        required
+                                        aria-describedby="errorTerminos">
+                                    <label class="form-check-label"
+                                        for="terminos">
+                                        Acepto la política de tratamiento de
+                                        datos
+                                    </label>
+                                    <div class="invalid-feedback"
+                                        id="errorTerminos"></div>
+                                </div>
 
-            </form>
-          </section>
-        </div>
+                                <!-- Botones -->
+                                <div
+                                    class="d-flex flex-column flex-sm-row gap-2">
+                                    <button type="submit"
+                                        class="btn btn-primary">
+                                        <i class="bi bi-send me-2"
+                                            aria-hidden="true"></i>Enviar
+                                        mensaje
+                                    </button>
+                                    <button type="reset"
+                                        class="btn btn-outline-secondary">Limpiar</button>
+                                </div>
 
-        <!-- ========== COLUMNA LATERAL ========== -->
-        <aside class="col-12 col-lg-5" aria-label="Datos de contacto y ayuda">
-          <div class="d-flex flex-column gap-4">
+                            </form>
+                        </section>
+                    </div>
 
-            <!-- Datos de contacto -->
-            <div class="card">
-              <div class="card-header bg-primary text-white">
-                <h2 class="h5 mb-0"><i class="bi bi-geo-alt-fill me-2" aria-hidden="true"></i>Datos de contacto</h2>
-              </div>
-              <ul class="list-group list-group-flush">
-                <li class="list-group-item"><i class="bi bi-envelope me-2 text-primary" aria-hidden="true"></i>contacto@portaleducativo.com</li>
-                <li class="list-group-item"><i class="bi bi-telephone me-2 text-primary" aria-hidden="true"></i>+57 300 123 4567</li>
-                <li class="list-group-item"><i class="bi bi-clock me-2 text-primary" aria-hidden="true"></i>Lunes a viernes, 8:00 a. m. a 6:00 p. m.</li>
-                <li class="list-group-item"><i class="bi bi-building me-2 text-primary" aria-hidden="true"></i>Calle 45 # 12-34, Medellín, Colombia</li>
-              </ul>
+                    <!-- ========== COLUMNA LATERAL ========== -->
+                    <aside class="col-12 col-lg-5"
+                        aria-label="Datos de contacto y ayuda">
+                        <div class="d-flex flex-column gap-4">
+
+                            <!-- Datos de contacto -->
+                            <div class="card">
+                                <div class="card-header bg-primary text-white">
+                                    <h2 class="h5 mb-0"><i
+                                            class="bi bi-geo-alt-fill me-2"
+                                            aria-hidden="true"></i>Datos de
+                                        contacto</h2>
+                                </div>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item"><i
+                                            class="bi bi-envelope me-2 text-primary"
+                                            aria-hidden="true"></i>contacto@portaleducativo.com</li>
+                                    <li class="list-group-item"><i
+                                            class="bi bi-telephone me-2 text-primary"
+                                            aria-hidden="true"></i>+57 300 123
+                                        4567</li>
+                                    <li class="list-group-item"><i
+                                            class="bi bi-clock me-2 text-primary"
+                                            aria-hidden="true"></i>Lunes a
+                                        viernes, 8:00 a. m. a 6:00 p. m.</li>
+                                    <li class="list-group-item"><i
+                                            class="bi bi-building me-2 text-primary"
+                                            aria-hidden="true"></i>Calle 45 #
+                                        12-34, Medellín, Colombia</li>
+                                </ul>
+                            </div>
+
+                            <!-- Preguntas frecuentes -->
+                            <div class="card">
+                                <div class="card-body">
+                                    <h2 class="h5 card-title"><i
+                                            class="bi bi-question-circle me-2 text-primary"
+                                            aria-hidden="true"></i>Preguntas
+                                        frecuentes</h2>
+                                    <p class="card-text">Quizás tu duda ya tiene
+                                        respuesta: revisa inscripciones,
+                                        certificados, costos y horarios.</p>
+                                    <a href="informacion.html"
+                                        class="btn btn-outline-primary">Ver
+                                        preguntas frecuentes</a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </aside>
+
+                </div>
             </div>
 
-            <!-- Preguntas frecuentes -->
-            <div class="card">
-              <div class="card-body">
-                <h2 class="h5 card-title"><i class="bi bi-question-circle me-2 text-primary" aria-hidden="true"></i>Preguntas frecuentes</h2>
-                <p class="card-text">Quizás tu duda ya tiene respuesta: revisa inscripciones, certificados, costos y horarios.</p>
-                <a href="informacion.html" class="btn btn-outline-primary">Ver preguntas frecuentes</a>
-              </div>
+        </main>
+
+        <!-- ===== Pie de página ===== -->
+        <footer class="py-4 mt-auto">
+            <div class="container">
+                <div class="row g-4">
+                    <!-- Columna: marca -->
+                    <section class="col-12 col-md-4">
+                        <h2 class="h5 d-flex align-items-center gap-2">
+                            <i class="bi bi-mortarboard-fill"
+                                aria-hidden="true"></i>
+                            Portal Educativo
+                        </h2>
+                        <p class="mb-0">Aprender es más fácil cuando se
+                            comparte. ¡Explora, practica y crece con
+                            nosotros!</p>
+                    </section>
+
+                    <!-- Columna: enlaces -->
+                    <nav class="col-6 col-md-4"
+                        aria-label="Enlaces del pie de página">
+                        <h2 class="h5">Enlaces</h2>
+                        <ul class="list-unstyled mb-0">
+                            <li><a href="index.html">Inicio</a></li>
+                            <li><a href="informacion.html">Información</a></li>
+                            <li><a href="galeria.html">Galería</a></li>
+                            <li><a href="tabla.html">Tabla</a></li>
+                            <li><a href="contacto.html">Contacto</a></li>
+                        </ul>
+                    </nav>
+
+                    <!-- Columna: contacto -->
+                    <section class="col-6 col-md-4">
+                        <h2 class="h5">Contacto</h2>
+                        <ul class="list-unstyled mb-0">
+                            <li><i class="bi bi-envelope me-2"
+                                    aria-hidden="true"></i>contacto@portaleducativo.com</li>
+                            <li><i class="bi bi-github me-2"
+                                    aria-hidden="true"></i><a
+                                    href="https://github.com/soypadierna"
+                                    target="_blank"
+                                    rel="noopener">soypadierna</a></li>
+                        </ul>
+                    </section>
+                </div>
+
+                <hr class="border-light">
+                <p class="text-center mb-0 small">&copy; 2026 Portal Educativo.
+                    Todos los derechos reservados.</p>
             </div>
+        </footer>
 
-          </div>
-        </aside>
-
-      </div>
-    </div>
-
-  </main>
-
-  <!-- ===== Pie de página ===== -->
-  <footer class="py-4 mt-auto">
-    <div class="container">
-      <div class="row g-4">
-        <!-- Columna: marca -->
-        <section class="col-12 col-md-4">
-          <h2 class="h5 d-flex align-items-center gap-2">
-            <i class="bi bi-mortarboard-fill" aria-hidden="true"></i>
-            Portal Educativo
-          </h2>
-          <p class="mb-0">Aprender es más fácil cuando se comparte. ¡Explora, practica y crece con nosotros!</p>
-        </section>
-
-        <!-- Columna: enlaces -->
-        <nav class="col-6 col-md-4" aria-label="Enlaces del pie de página">
-          <h2 class="h5">Enlaces</h2>
-          <ul class="list-unstyled mb-0">
-            <li><a href="index.html">Inicio</a></li>
-            <li><a href="informacion.html">Información</a></li>
-            <li><a href="galeria.html">Galería</a></li>
-            <li><a href="tabla.html">Tabla</a></li>
-            <li><a href="contacto.html">Contacto</a></li>
-          </ul>
-        </nav>
-
-        <!-- Columna: contacto -->
-        <section class="col-6 col-md-4">
-          <h2 class="h5">Contacto</h2>
-          <ul class="list-unstyled mb-0">
-            <li><i class="bi bi-envelope me-2" aria-hidden="true"></i>contacto@portaleducativo.com</li>
-            <li><i class="bi bi-github me-2" aria-hidden="true"></i><a href="https://github.com/soypadierna" target="_blank" rel="noopener">soypadierna</a></li>
-          </ul>
-        </section>
-      </div>
-
-      <hr class="border-light">
-      <p class="text-center mb-0 small">&copy; 2026 Portal Educativo. Todos los derechos reservados.</p>
-    </div>
-  </footer>
-
-  <!-- Bootstrap 5 JS bundle (al final del body) -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-  <!-- Validación del formulario -->
-  <script src="js/script.js"></script>
-</body>
+        <!-- Bootstrap 5 JS bundle (al final del body) -->
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Validación del formulario -->
+        <script src="js/script.js"></script>
+    </body>
 </html>

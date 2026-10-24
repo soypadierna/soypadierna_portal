@@ -1,8 +1,16 @@
-# Portal Educativo
+<p align="center">
+  <img src="img/favicon.svg" alt="Logo de Portal Educativo: birrete de graduación" width="80">
+</p>
+
+<h1 align="center">Portal Educativo</h1>
+
+<p align="center">
+  <img src="img/captura-portal.png" alt="Captura de pantalla de la página de inicio del Portal Educativo" width="800">
+</p>
 
 Portal web temático con recursos, información y actividades educativas. Proyecto individual desarrollado con HTML5, Bootstrap 5, CSS y JavaScript propios, publicado en GitHub Pages.
 
-🔗 **Sitio publicado:** [URL_PUBLICA](URL_PUBLICA)
+🔗 **Sitio publicado:** [https://soypadierna.github.io/soypadierna_portal/](https://soypadierna.github.io/soypadierna_portal/)
 
 ## Tecnologías
 
@@ -75,12 +83,13 @@ portal-educativo/
 Las imágenes del directorio `img/` provienen de:
 
 - Imágenes generadas con inteligencia artificial.
-- Imágenes libres de derechos (por ejemplo, Unsplash, Pexels o Pixabay).
+- Imágenes libres de derechos.
 
 Las imágenes y el contenido de ejemplo (docentes, cursos, datos de contacto) son ficticios y se usan con fines académicos.
 
 ## Autor
 
-**Santiago** · [@soypadierna](https://github.com/soypadierna)
+**Santiago Padierna** · [@soypadierna](https://github.com/soypadierna)
+**Camilo Mejia** · [@carlosmejia327-dot](https://github.com/carlosmejia327-dot)
 
 Proyecto académico, 2026.

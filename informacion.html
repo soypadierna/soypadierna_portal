@@ -1,343 +1,524 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-  <!-- Metadatos básicos -->
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Información | Portal Educativo</title>
-  <meta name="description" content="Conoce quiénes somos, nuestros cursos, docentes, fechas de inicio y respuestas a las preguntas más frecuentes del Portal Educativo.">
-  <meta name="keywords" content="información, misión, visión, cursos, docentes, preguntas frecuentes, inscripción, certificados">
-  <meta name="author" content="Santiago">
+    <head>
+        <!-- Metadatos básicos -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Información | Portal Educativo</title>
+        <meta name="description"
+            content="Conoce quiénes somos, nuestros cursos, docentes, fechas de inicio y respuestas a las preguntas más frecuentes del Portal Educativo.">
+        <meta name="keywords"
+            content="información, misión, visión, cursos, docentes, preguntas frecuentes, inscripción, certificados">
+        <meta name="author" content="Santiago">
 
-  <!-- Open Graph -->
-  <meta property="og:title" content="Portal Educativo | Información">
-  <meta property="og:description" content="Misión, visión, cursos, docentes y preguntas frecuentes del Portal Educativo.">
+        <!-- Favicon -->
+        <link rel="icon" type="image/svg+xml" href="img/favicon.svg">
 
-  <!-- Bootstrap 5 CSS y Bootstrap Icons (CDN) -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+        <!-- Open Graph -->
+        <meta property="og:title" content="Portal Educativo | Información">
+        <meta property="og:description"
+            content="Misión, visión, cursos, docentes y preguntas frecuentes del Portal Educativo.">
 
-  <!-- Estilos propios (después de Bootstrap) -->
-  <link href="css/style.css" rel="stylesheet">
-</head>
-<body class="d-flex flex-column min-vh-100">
+        <!-- Bootstrap 5 CSS y Bootstrap Icons (CDN) -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+            rel="stylesheet">
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+            rel="stylesheet">
 
-  <!-- ===== Encabezado con navbar ===== -->
-  <header>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary" aria-label="Navegación principal">
-      <div class="container">
-        <!-- Logo: ícono + texto -->
-        <a class="navbar-brand d-flex align-items-center gap-2" href="index.html" aria-label="Portal Educativo, ir al inicio">
-          <i class="bi bi-mortarboard-fill" aria-hidden="true"></i>
-          <span>Portal Educativo</span>
-        </a>
+        <!-- Estilos propios (después de Bootstrap) -->
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body class="d-flex flex-column min-vh-100">
 
-        <!-- Botón hamburguesa (móvil) -->
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#menuPrincipal" aria-controls="menuPrincipal"
-                aria-expanded="false" aria-label="Abrir menú de navegación">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+        <!-- ===== Encabezado con navbar ===== -->
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-primary"
+                aria-label="Navegación principal">
+                <div class="container">
+                    <!-- Logo: ícono + texto -->
+                    <a class="navbar-brand d-flex align-items-center gap-2"
+                        href="index.html"
+                        aria-label="Portal Educativo, ir al inicio">
+                        <i class="bi bi-mortarboard-fill"
+                            aria-hidden="true"></i>
+                        <span>Portal Educativo</span>
+                    </a>
 
-        <!-- Enlaces -->
-        <div class="collapse navbar-collapse" id="menuPrincipal">
-          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link" href="index.html">Inicio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="informacion.html">Información</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="galeria.html">Galería</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="tabla.html">Tabla</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contacto.html">Contacto</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-  </header>
+                    <!-- Botón hamburguesa (móvil) -->
+                    <button class="navbar-toggler" type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#menuPrincipal"
+                        aria-controls="menuPrincipal"
+                        aria-expanded="false"
+                        aria-label="Abrir menú de navegación">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
 
-  <!-- ===== Contenido principal ===== -->
-  <main class="flex-grow-1">
-
-    <!-- Encabezado de la página -->
-    <section class="bg-white border-bottom py-4" aria-labelledby="titulo-pagina">
-      <div class="container">
-        <h1 id="titulo-pagina" class="mb-1">Información del portal</h1>
-        <p class="lead mb-0">Todo lo que necesitas saber antes de empezar a aprender con nosotros.</p>
-      </div>
-    </section>
-
-    <div class="container py-5">
-      <div class="row g-4">
-
-        <!-- ========== COLUMNA PRINCIPAL ========== -->
-        <div class="col-12 col-lg-8">
-
-          <!-- 1. ¿Quiénes somos? -->
-          <section class="mb-5" aria-labelledby="titulo-quienes">
-            <h2 id="titulo-quienes" class="mb-3">¿Quiénes somos?</h2>
-            <article>
-              <h3 class="h5">Nuestra misión</h3>
-              <p>Acercar la educación a cualquier persona que quiera aprender, ofreciendo cursos claros, prácticos y acompañados por docentes que escuchan y orientan.</p>
-
-              <h3 class="h5">Nuestra visión</h3>
-              <p>Ser una comunidad de aprendizaje en línea donde cada estudiante gane confianza, descubra sus talentos y pueda aplicar lo aprendido en su vida diaria y profesional.</p>
-
-              <h3 class="h5">Nuestra metodología</h3>
-              <p class="mb-0">Aprendemos haciendo: cada tema combina explicaciones breves, ejemplos reales y ejercicios prácticos. Avanzas a tu ritmo, resuelves dudas con tu docente y compartes tus avances con otros estudiantes.</p>
-            </article>
-          </section>
-
-          <!-- 2. Nuestros cursos -->
-          <section class="mb-5" aria-labelledby="titulo-cursos">
-            <h2 id="titulo-cursos" class="mb-3">Nuestros cursos</h2>
-            <div class="d-flex flex-column gap-3">
-
-              <article class="card">
-                <div class="card-body">
-                  <div class="d-flex justify-content-between align-items-start gap-2">
-                    <h3 class="h5 card-title">Tecnología</h3>
-                    <span class="badge text-bg-primary">Nuevo</span>
-                  </div>
-                  <p class="card-text">Programación básica, diseño web y herramientas digitales para estudiar y trabajar con mayor facilidad.</p>
-                  <ul class="list-unstyled mb-0 small">
-                    <li><i class="bi bi-clock me-2" aria-hidden="true"></i><strong>Duración:</strong> 8 semanas</li>
-                    <li><i class="bi bi-laptop me-2" aria-hidden="true"></i><strong>Modalidad:</strong> 100% en línea</li>
-                  </ul>
+                    <!-- Enlaces -->
+                    <div class="collapse navbar-collapse" id="menuPrincipal">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page"
+                                    href="informacion.html">Información</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link"
+                                    href="galeria.html">Galería</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="tabla.html">Tabla</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link"
+                                    href="contacto.html">Contacto</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-              </article>
+            </nav>
+        </header>
 
-              <article class="card">
-                <div class="card-body">
-                  <div class="d-flex justify-content-between align-items-start gap-2">
-                    <h3 class="h5 card-title">Idiomas</h3>
-                    <span class="badge text-bg-success">Popular</span>
-                  </div>
-                  <p class="card-text">Inglés y español para la comunicación diaria, con práctica de conversación y vocabulario útil.</p>
-                  <ul class="list-unstyled mb-0 small">
-                    <li><i class="bi bi-clock me-2" aria-hidden="true"></i><strong>Duración:</strong> 12 semanas</li>
-                    <li><i class="bi bi-camera-video me-2" aria-hidden="true"></i><strong>Modalidad:</strong> Clases en vivo</li>
-                  </ul>
+        <!-- ===== Contenido principal ===== -->
+        <main class="flex-grow-1">
+
+            <!-- Encabezado de la página -->
+            <section class="bg-white border-bottom py-4"
+                aria-labelledby="titulo-pagina">
+                <div class="container">
+                    <h1 id="titulo-pagina" class="mb-1">Información del
+                        portal</h1>
+                    <p class="lead mb-0">Todo lo que necesitas saber antes de
+                        empezar a aprender con nosotros.</p>
                 </div>
-              </article>
+            </section>
 
-              <article class="card">
-                <div class="card-body">
-                  <div class="d-flex justify-content-between align-items-start gap-2">
-                    <h3 class="h5 card-title">Habilidades blandas</h3>
-                    <span class="badge text-bg-warning">Cupos limitados</span>
-                  </div>
-                  <p class="card-text">Comunicación, trabajo en equipo y organización del tiempo para destacar en tus estudios y tu trabajo.</p>
-                  <ul class="list-unstyled mb-0 small">
-                    <li><i class="bi bi-clock me-2" aria-hidden="true"></i><strong>Duración:</strong> 6 semanas</li>
-                    <li><i class="bi bi-people me-2" aria-hidden="true"></i><strong>Modalidad:</strong> Mixta (talleres y autoestudio)</li>
-                  </ul>
+            <div class="container py-5">
+                <div class="row g-4">
+
+                    <!-- ========== COLUMNA PRINCIPAL ========== -->
+                    <div class="col-12 col-lg-8">
+
+                        <!-- 1. ¿Quiénes somos? -->
+                        <section class="mb-5" aria-labelledby="titulo-quienes">
+                            <h2 id="titulo-quienes" class="mb-3">¿Quiénes
+                                somos?</h2>
+                            <article>
+                                <h3 class="h5">Nuestra misión</h3>
+                                <p>Acercar la educación a cualquier persona que
+                                    quiera aprender, ofreciendo cursos claros,
+                                    prácticos y acompañados por docentes que
+                                    escuchan y orientan.</p>
+
+                                <h3 class="h5">Nuestra visión</h3>
+                                <p>Ser una comunidad de aprendizaje en línea
+                                    donde cada estudiante gane confianza,
+                                    descubra sus talentos y pueda aplicar lo
+                                    aprendido en su vida diaria y
+                                    profesional.</p>
+
+                                <h3 class="h5">Nuestra metodología</h3>
+                                <p class="mb-0">Aprendemos haciendo: cada tema
+                                    combina explicaciones breves, ejemplos
+                                    reales y ejercicios prácticos. Avanzas a tu
+                                    ritmo, resuelves dudas con tu docente y
+                                    compartes tus avances con otros
+                                    estudiantes.</p>
+                            </article>
+                        </section>
+
+                        <!-- 2. Nuestros cursos -->
+                        <section class="mb-5" aria-labelledby="titulo-cursos">
+                            <h2 id="titulo-cursos" class="mb-3">Nuestros
+                                cursos</h2>
+                            <div class="d-flex flex-column gap-3">
+
+                                <article class="card">
+                                    <div class="card-body">
+                                        <div
+                                            class="d-flex justify-content-between align-items-start gap-2">
+                                            <h3
+                                                class="h5 card-title">Tecnología</h3>
+                                            <span
+                                                class="badge text-bg-primary">Nuevo</span>
+                                        </div>
+                                        <p class="card-text">Programación
+                                            básica, diseño web y herramientas
+                                            digitales para estudiar y trabajar
+                                            con mayor facilidad.</p>
+                                        <ul class="list-unstyled mb-0 small">
+                                            <li><i class="bi bi-clock me-2"
+                                                    aria-hidden="true"></i><strong>Duración:</strong>
+                                                8 semanas</li>
+                                            <li><i class="bi bi-laptop me-2"
+                                                    aria-hidden="true"></i><strong>Modalidad:</strong>
+                                                100% en línea</li>
+                                        </ul>
+                                    </div>
+                                </article>
+
+                                <article class="card">
+                                    <div class="card-body">
+                                        <div
+                                            class="d-flex justify-content-between align-items-start gap-2">
+                                            <h3
+                                                class="h5 card-title">Idiomas</h3>
+                                            <span
+                                                class="badge text-bg-success">Popular</span>
+                                        </div>
+                                        <p class="card-text">Inglés y español
+                                            para la comunicación diaria, con
+                                            práctica de conversación y
+                                            vocabulario útil.</p>
+                                        <ul class="list-unstyled mb-0 small">
+                                            <li><i class="bi bi-clock me-2"
+                                                    aria-hidden="true"></i><strong>Duración:</strong>
+                                                12 semanas</li>
+                                            <li><i
+                                                    class="bi bi-camera-video me-2"
+                                                    aria-hidden="true"></i><strong>Modalidad:</strong>
+                                                Clases en vivo</li>
+                                        </ul>
+                                    </div>
+                                </article>
+
+                                <article class="card">
+                                    <div class="card-body">
+                                        <div
+                                            class="d-flex justify-content-between align-items-start gap-2">
+                                            <h3
+                                                class="h5 card-title">Habilidades
+                                                blandas</h3>
+                                            <span
+                                                class="badge text-bg-warning">Cupos
+                                                limitados</span>
+                                        </div>
+                                        <p class="card-text">Comunicación,
+                                            trabajo en equipo y organización del
+                                            tiempo para destacar en tus estudios
+                                            y tu trabajo.</p>
+                                        <ul class="list-unstyled mb-0 small">
+                                            <li><i class="bi bi-clock me-2"
+                                                    aria-hidden="true"></i><strong>Duración:</strong>
+                                                6 semanas</li>
+                                            <li><i class="bi bi-people me-2"
+                                                    aria-hidden="true"></i><strong>Modalidad:</strong>
+                                                Mixta (talleres y
+                                                autoestudio)</li>
+                                        </ul>
+                                    </div>
+                                </article>
+
+                            </div>
+                        </section>
+
+                        <!-- 3. Preguntas frecuentes -->
+                        <section class="mb-5" aria-labelledby="titulo-faq">
+                            <h2 id="titulo-faq" class="mb-3">Preguntas
+                                frecuentes</h2>
+                            <div class="accordion" id="accordionFaq"
+                                aria-label="Preguntas frecuentes sobre el portal">
+
+                                <div class="accordion-item">
+                                    <h3 class="accordion-header" id="faq-h1">
+                                        <button class="accordion-button"
+                                            type="button"
+                                            data-bs-toggle="collapse"
+                                            data-bs-target="#faq-c1"
+                                            aria-expanded="true"
+                                            aria-controls="faq-c1">
+                                            ¿Cómo me inscribo?
+                                        </button>
+                                    </h3>
+                                    <div id="faq-c1"
+                                        class="accordion-collapse collapse show"
+                                        aria-labelledby="faq-h1"
+                                        data-bs-parent="#accordionFaq">
+                                        <div class="accordion-body">
+                                            Completa el formulario de la página
+                                            de contacto indicando el curso que
+                                            te interesa. Te responderemos con
+                                            los pasos para confirmar tu cupo.
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion-item">
+                                    <h3 class="accordion-header" id="faq-h2">
+                                        <button
+                                            class="accordion-button collapsed"
+                                            type="button"
+                                            data-bs-toggle="collapse"
+                                            data-bs-target="#faq-c2"
+                                            aria-expanded="false"
+                                            aria-controls="faq-c2">
+                                            ¿Entregan certificados?
+                                        </button>
+                                    </h3>
+                                    <div id="faq-c2"
+                                        class="accordion-collapse collapse"
+                                        aria-labelledby="faq-h2"
+                                        data-bs-parent="#accordionFaq">
+                                        <div class="accordion-body">
+                                            Sí. Al completar las actividades y
+                                            asistir a las sesiones requeridas
+                                            recibes un certificado digital de
+                                            participación.
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion-item">
+                                    <h3 class="accordion-header" id="faq-h3">
+                                        <button
+                                            class="accordion-button collapsed"
+                                            type="button"
+                                            data-bs-toggle="collapse"
+                                            data-bs-target="#faq-c3"
+                                            aria-expanded="false"
+                                            aria-controls="faq-c3">
+                                            ¿Cuánto cuestan los cursos?
+                                        </button>
+                                    </h3>
+                                    <div id="faq-c3"
+                                        class="accordion-collapse collapse"
+                                        aria-labelledby="faq-h3"
+                                        data-bs-parent="#accordionFaq">
+                                        <div class="accordion-body">
+                                            Los costos varían según el área y la
+                                            duración. Escríbenos y te enviamos
+                                            el detalle, junto con las opciones
+                                            de pago y los descuentos
+                                            disponibles.
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion-item">
+                                    <h3 class="accordion-header" id="faq-h4">
+                                        <button
+                                            class="accordion-button collapsed"
+                                            type="button"
+                                            data-bs-toggle="collapse"
+                                            data-bs-target="#faq-c4"
+                                            aria-expanded="false"
+                                            aria-controls="faq-c4">
+                                            ¿Qué horarios manejan?
+                                        </button>
+                                    </h3>
+                                    <div id="faq-c4"
+                                        class="accordion-collapse collapse"
+                                        aria-labelledby="faq-h4"
+                                        data-bs-parent="#accordionFaq">
+                                        <div class="accordion-body">
+                                            Hay grupos en la mañana, en la tarde
+                                            y en la noche. Las clases en vivo
+                                            quedan grabadas para que puedas
+                                            verlas después si no alcanzas a
+                                            conectarte.
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion-item">
+                                    <h3 class="accordion-header" id="faq-h5">
+                                        <button
+                                            class="accordion-button collapsed"
+                                            type="button"
+                                            data-bs-toggle="collapse"
+                                            data-bs-target="#faq-c5"
+                                            aria-expanded="false"
+                                            aria-controls="faq-c5">
+                                            ¿Qué necesito para empezar?
+                                        </button>
+                                    </h3>
+                                    <div id="faq-c5"
+                                        class="accordion-collapse collapse"
+                                        aria-labelledby="faq-h5"
+                                        data-bs-parent="#accordionFaq">
+                                        <div class="accordion-body">
+                                            Solo un dispositivo con internet,
+                                            ganas de aprender y un correo
+                                            electrónico activo. No se piden
+                                            estudios previos para los cursos de
+                                            nivel inicial.
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </section>
+
+                        <!-- 4. Nuestros docentes -->
+                        <section aria-labelledby="titulo-docentes">
+                            <h2 id="titulo-docentes" class="mb-3">Nuestros
+                                docentes</h2>
+                            <div class="row row-cols-1 row-cols-md-2 g-4">
+
+                                <div class="col">
+                                    <article class="card h-100">
+                                        <img src="img/docente1.png"
+                                            class="card-img-top" loading="lazy"
+                                            alt="Docente de tecnología sonriendo frente a un computador">
+                                        <div class="card-body">
+                                            <h3 class="h5 card-title">Laura
+                                                Gómez</h3>
+                                            <p
+                                                class="text-primary fw-semibold mb-2">Tecnología
+                                                y programación</p>
+                                            <p class="card-text mb-0">Ingeniera
+                                                de sistemas apasionada por
+                                                enseñar. Explica la lógica de
+                                                programación con ejemplos
+                                                sencillos y mucha práctica.</p>
+                                        </div>
+                                    </article>
+                                </div>
+
+                                <div class="col">
+                                    <article class="card h-100">
+                                        <img src="img/docente2.png"
+                                            class="card-img-top" loading="lazy"
+                                            alt="Docente de idiomas dictando una clase con un tablero detrás">
+                                        <div class="card-body">
+                                            <h3 class="h5 card-title">Andrés
+                                                Ramírez</h3>
+                                            <p
+                                                class="text-primary fw-semibold mb-2">Idiomas
+                                                y comunicación</p>
+                                            <p class="card-text mb-0">Licenciado
+                                                en lenguas con años de
+                                                experiencia. Sus clases son
+                                                dinámicas y centradas en hablar
+                                                con confianza.</p>
+                                        </div>
+                                    </article>
+                                </div>
+
+                            </div>
+                        </section>
+
+                    </div>
+
+                    <!-- ========== COLUMNA LATERAL ========== -->
+                    <aside class="col-12 col-lg-4"
+                        aria-label="Información complementaria">
+                        <div
+                            class="sticky-lg-top aside-sticky d-flex flex-column gap-4">
+
+                            <!-- Próximas fechas -->
+                            <div class="card">
+                                <div class="card-header bg-primary text-white">
+                                    <h2 class="h5 mb-0"><i
+                                            class="bi bi-calendar-event me-2"
+                                            aria-hidden="true"></i>Próximas
+                                        fechas</h2>
+                                </div>
+                                <ul class="list-group list-group-flush">
+                                    <li
+                                        class="list-group-item d-flex justify-content-between align-items-center">
+                                        Tecnología <span
+                                            class="badge text-bg-primary">3
+                                            nov</span>
+                                    </li>
+                                    <li
+                                        class="list-group-item d-flex justify-content-between align-items-center">
+                                        Idiomas <span
+                                            class="badge text-bg-primary">10
+                                            nov</span>
+                                    </li>
+                                    <li
+                                        class="list-group-item d-flex justify-content-between align-items-center">
+                                        Habilidades blandas <span
+                                            class="badge text-bg-primary">17
+                                            nov</span>
+                                    </li>
+                                    <li
+                                        class="list-group-item d-flex justify-content-between align-items-center">
+                                        Taller de estudio <span
+                                            class="badge text-bg-primary">24
+                                            nov</span>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <!-- ¿Necesitas ayuda? -->
+                            <div class="alert alert-info mb-0" role="note">
+                                <h2 class="h5 alert-heading"><i
+                                        class="bi bi-question-circle me-2"
+                                        aria-hidden="true"></i>¿Necesitas
+                                    ayuda?</h2>
+                                <p>Si te quedó alguna duda, escríbenos y te
+                                    orientamos sin compromiso.</p>
+                                <a href="contacto.html"
+                                    class="btn btn-primary w-100">Ir a
+                                    contacto</a>
+                            </div>
+
+                        </div>
+                    </aside>
+
                 </div>
-              </article>
-
             </div>
-          </section>
 
-          <!-- 3. Preguntas frecuentes -->
-          <section class="mb-5" aria-labelledby="titulo-faq">
-            <h2 id="titulo-faq" class="mb-3">Preguntas frecuentes</h2>
-            <div class="accordion" id="accordionFaq" aria-label="Preguntas frecuentes sobre el portal">
+        </main>
 
-              <div class="accordion-item">
-                <h3 class="accordion-header" id="faq-h1">
-                  <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                          data-bs-target="#faq-c1" aria-expanded="true" aria-controls="faq-c1">
-                    ¿Cómo me inscribo?
-                  </button>
-                </h3>
-                <div id="faq-c1" class="accordion-collapse collapse show" aria-labelledby="faq-h1" data-bs-parent="#accordionFaq">
-                  <div class="accordion-body">
-                    Completa el formulario de la página de contacto indicando el curso que te interesa. Te responderemos con los pasos para confirmar tu cupo.
-                  </div>
+        <!-- ===== Pie de página ===== -->
+        <footer class="py-4 mt-auto">
+            <div class="container">
+                <div class="row g-4">
+                    <!-- Columna: marca -->
+                    <section class="col-12 col-md-4">
+                        <h2 class="h5 d-flex align-items-center gap-2">
+                            <i class="bi bi-mortarboard-fill"
+                                aria-hidden="true"></i>
+                            Portal Educativo
+                        </h2>
+                        <p class="mb-0">Aprender es más fácil cuando se
+                            comparte. ¡Explora, practica y crece con
+                            nosotros!</p>
+                    </section>
+
+                    <!-- Columna: enlaces -->
+                    <nav class="col-6 col-md-4"
+                        aria-label="Enlaces del pie de página">
+                        <h2 class="h5">Enlaces</h2>
+                        <ul class="list-unstyled mb-0">
+                            <li><a href="index.html">Inicio</a></li>
+                            <li><a href="informacion.html">Información</a></li>
+                            <li><a href="galeria.html">Galería</a></li>
+                            <li><a href="tabla.html">Tabla</a></li>
+                            <li><a href="contacto.html">Contacto</a></li>
+                        </ul>
+                    </nav>
+
+                    <!-- Columna: contacto -->
+                    <section class="col-6 col-md-4">
+                        <h2 class="h5">Contacto</h2>
+                        <ul class="list-unstyled mb-0">
+                            <li><i class="bi bi-envelope me-2"
+                                    aria-hidden="true"></i>contacto@portaleducativo.com</li>
+                            <li><i class="bi bi-github me-2"
+                                    aria-hidden="true"></i><a
+                                    href="https://github.com/soypadierna"
+                                    target="_blank"
+                                    rel="noopener">soypadierna</a></li>
+                        </ul>
+                    </section>
                 </div>
-              </div>
 
-              <div class="accordion-item">
-                <h3 class="accordion-header" id="faq-h2">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                          data-bs-target="#faq-c2" aria-expanded="false" aria-controls="faq-c2">
-                    ¿Entregan certificados?
-                  </button>
-                </h3>
-                <div id="faq-c2" class="accordion-collapse collapse" aria-labelledby="faq-h2" data-bs-parent="#accordionFaq">
-                  <div class="accordion-body">
-                    Sí. Al completar las actividades y asistir a las sesiones requeridas recibes un certificado digital de participación.
-                  </div>
-                </div>
-              </div>
-
-              <div class="accordion-item">
-                <h3 class="accordion-header" id="faq-h3">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                          data-bs-target="#faq-c3" aria-expanded="false" aria-controls="faq-c3">
-                    ¿Cuánto cuestan los cursos?
-                  </button>
-                </h3>
-                <div id="faq-c3" class="accordion-collapse collapse" aria-labelledby="faq-h3" data-bs-parent="#accordionFaq">
-                  <div class="accordion-body">
-                    Los costos varían según el área y la duración. Escríbenos y te enviamos el detalle, junto con las opciones de pago y los descuentos disponibles.
-                  </div>
-                </div>
-              </div>
-
-              <div class="accordion-item">
-                <h3 class="accordion-header" id="faq-h4">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                          data-bs-target="#faq-c4" aria-expanded="false" aria-controls="faq-c4">
-                    ¿Qué horarios manejan?
-                  </button>
-                </h3>
-                <div id="faq-c4" class="accordion-collapse collapse" aria-labelledby="faq-h4" data-bs-parent="#accordionFaq">
-                  <div class="accordion-body">
-                    Hay grupos en la mañana, en la tarde y en la noche. Las clases en vivo quedan grabadas para que puedas verlas después si no alcanzas a conectarte.
-                  </div>
-                </div>
-              </div>
-
-              <div class="accordion-item">
-                <h3 class="accordion-header" id="faq-h5">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                          data-bs-target="#faq-c5" aria-expanded="false" aria-controls="faq-c5">
-                    ¿Qué necesito para empezar?
-                  </button>
-                </h3>
-                <div id="faq-c5" class="accordion-collapse collapse" aria-labelledby="faq-h5" data-bs-parent="#accordionFaq">
-                  <div class="accordion-body">
-                    Solo un dispositivo con internet, ganas de aprender y un correo electrónico activo. No se piden estudios previos para los cursos de nivel inicial.
-                  </div>
-                </div>
-              </div>
-
+                <hr class="border-light">
+                <p class="text-center mb-0 small">&copy; 2026 Portal Educativo.
+                    Todos los derechos reservados.</p>
             </div>
-          </section>
+        </footer>
 
-          <!-- 4. Nuestros docentes -->
-          <section aria-labelledby="titulo-docentes">
-            <h2 id="titulo-docentes" class="mb-3">Nuestros docentes</h2>
-            <div class="row row-cols-1 row-cols-md-2 g-4">
-
-              <div class="col">
-                <article class="card h-100">
-                  <img src="img/docente1.png" class="card-img-top" loading="lazy"
-                       alt="Docente de tecnología sonriendo frente a un computador">
-                  <div class="card-body">
-                    <h3 class="h5 card-title">Laura Gómez</h3>
-                    <p class="text-primary fw-semibold mb-2">Tecnología y programación</p>
-                    <p class="card-text mb-0">Ingeniera de sistemas apasionada por enseñar. Explica la lógica de programación con ejemplos sencillos y mucha práctica.</p>
-                  </div>
-                </article>
-              </div>
-
-              <div class="col">
-                <article class="card h-100">
-                  <img src="img/docente2.png" class="card-img-top" loading="lazy"
-                       alt="Docente de idiomas dictando una clase con un tablero detrás">
-                  <div class="card-body">
-                    <h3 class="h5 card-title">Andrés Ramírez</h3>
-                    <p class="text-primary fw-semibold mb-2">Idiomas y comunicación</p>
-                    <p class="card-text mb-0">Licenciado en lenguas con años de experiencia. Sus clases son dinámicas y centradas en hablar con confianza.</p>
-                  </div>
-                </article>
-              </div>
-
-            </div>
-          </section>
-
-        </div>
-
-        <!-- ========== COLUMNA LATERAL ========== -->
-        <aside class="col-12 col-lg-4" aria-label="Información complementaria">
-          <div class="sticky-lg-top aside-sticky d-flex flex-column gap-4">
-
-            <!-- Próximas fechas -->
-            <div class="card">
-              <div class="card-header bg-primary text-white">
-                <h2 class="h5 mb-0"><i class="bi bi-calendar-event me-2" aria-hidden="true"></i>Próximas fechas</h2>
-              </div>
-              <ul class="list-group list-group-flush">
-                <li class="list-group-item d-flex justify-content-between align-items-center">
-                  Tecnología <span class="badge text-bg-primary">3 nov</span>
-                </li>
-                <li class="list-group-item d-flex justify-content-between align-items-center">
-                  Idiomas <span class="badge text-bg-primary">10 nov</span>
-                </li>
-                <li class="list-group-item d-flex justify-content-between align-items-center">
-                  Habilidades blandas <span class="badge text-bg-primary">17 nov</span>
-                </li>
-                <li class="list-group-item d-flex justify-content-between align-items-center">
-                  Taller de estudio <span class="badge text-bg-primary">24 nov</span>
-                </li>
-              </ul>
-            </div>
-
-            <!-- ¿Necesitas ayuda? -->
-            <div class="alert alert-info mb-0" role="note">
-              <h2 class="h5 alert-heading"><i class="bi bi-question-circle me-2" aria-hidden="true"></i>¿Necesitas ayuda?</h2>
-              <p>Si te quedó alguna duda, escríbenos y te orientamos sin compromiso.</p>
-              <a href="contacto.html" class="btn btn-primary w-100">Ir a contacto</a>
-            </div>
-
-          </div>
-        </aside>
-
-      </div>
-    </div>
-
-  </main>
-
-  <!-- ===== Pie de página ===== -->
-  <footer class="py-4 mt-auto">
-    <div class="container">
-      <div class="row g-4">
-        <!-- Columna: marca -->
-        <section class="col-12 col-md-4">
-          <h2 class="h5 d-flex align-items-center gap-2">
-            <i class="bi bi-mortarboard-fill" aria-hidden="true"></i>
-            Portal Educativo
-          </h2>
-          <p class="mb-0">Aprender es más fácil cuando se comparte. ¡Explora, practica y crece con nosotros!</p>
-        </section>
-
-        <!-- Columna: enlaces -->
-        <nav class="col-6 col-md-4" aria-label="Enlaces del pie de página">
-          <h2 class="h5">Enlaces</h2>
-          <ul class="list-unstyled mb-0">
-            <li><a href="index.html">Inicio</a></li>
-            <li><a href="informacion.html">Información</a></li>
-            <li><a href="galeria.html">Galería</a></li>
-            <li><a href="tabla.html">Tabla</a></li>
-            <li><a href="contacto.html">Contacto</a></li>
-          </ul>
-        </nav>
-
-        <!-- Columna: contacto -->
-        <section class="col-6 col-md-4">
-          <h2 class="h5">Contacto</h2>
-          <ul class="list-unstyled mb-0">
-            <li><i class="bi bi-envelope me-2" aria-hidden="true"></i>contacto@portaleducativo.com</li>
-            <li><i class="bi bi-github me-2" aria-hidden="true"></i><a href="https://github.com/soypadierna" target="_blank" rel="noopener">soypadierna</a></li>
-          </ul>
-        </section>
-      </div>
-
-      <hr class="border-light">
-      <p class="text-center mb-0 small">&copy; 2026 Portal Educativo. Todos los derechos reservados.</p>
-    </div>
-  </footer>
-
-  <!-- Bootstrap 5 JS bundle (al final del body) -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-</body>
+        <!-- Bootstrap 5 JS bundle (al final del body) -->
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
 </html>
